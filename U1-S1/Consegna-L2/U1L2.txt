@@ -1,0 +1,103 @@
+128.1.6.5  /12
+
+255.240.0.0
+
+CIDR 12
+
+10000000.00000001.00000100.00001010
+11111111.11110000.00000000.00000000
+
+10000000.00000000.00000000.00000000
+
+
+
+○ IP Network:  128.0.0.0
+○ IP Gateway ‘convenzionale’: 128.0.0.1
+○ IP Broadcast:  128.15.255.255   (255-240=16)(0min a 15max)
+○ Ottetti per gli host: 2.5 (i primi 12 bit sono per la network, i restanti 20 per gli host) 
+○ Ottetti per la network: 1,5 
+-------------------------------------------------------
+200.1.2.3  /24
+
+255.255.255.0
+
+CIDR 24
+
+11001000.00000001.00000010.00000011
+11111111.11111111.11111111.00000000
+
+11001000.00000001.00000010.00000000
+
+○ IP Network:  200.1.2.0
+○ IP Gateway ‘convenzionale’: 200.1.2.1
+○ IP Broadcast:  200.1.2.255 (255-255=0)(0min a 255max)
+○ Ottetti per gli host: 1 (i primi 24 bit sono per la network, i restanti 8 per gli host) 
+○ Ottetti per la network: 3 
+-------------------------------------------------------
+192.192.1.1  /22
+
+255.255.252.0
+
+CIDR 22
+
+11000000.00000001.00000001.00000001
+11111111.11111111.11111100.00000000
+
+11000000.00000001.00000000.00000000
+
+○ IP Network:  192.192.0.0
+○ IP Gateway ‘convenzionale’: 192.192.0.1
+○ IP Broadcast:  192.192.3.255  (255-252=3)(0min a 3max)
+○ Ottetti per gli host: 2.5 (i primi 22 bit sono per la network, i restanti 10 per gli host) 
+○ Ottetti per la network: 2.5 
+-------------------------------------------------------
+126.5.4.3  /9
+
+255.128.0.0
+
+CIDR 9
+
+01111110.00001010.00000100.00000011
+11111111.10000000.00000000.00000000
+
+01111110.00000000.00000000.00000000
+
+○ IP Network:  126.0.0.0
+○ IP Gateway ‘convenzionale’: 126.0.0.1
+○ IP Broadcast:  126.127.255.255  (255-128=127)(0min/127max)
+○ Ottetti per gli host: 2.875  (i primi 9 bit sono per la network, i restanti 23 per gli host) 
+○ Ottetti per la network: 3 
+-------------------------------------------------------
+200.1.9.8  /24
+
+255.255.255.0
+
+CIDR 24
+
+11001000.00000001.00001001.00001000
+11111111.11111111.11111111.00000000
+
+11001000.00000001.00001001.00000000
+
+○ IP Network:  200.1.9.0
+○ IP Gateway ‘convenzionale’:  200.1.9.1
+○ IP Broadcast:  200.1.9.255  (255-255=0) (0min/255max)
+○ Ottetti per gli host: 1 (i primi 24 bit sono per la network, i restanti 8 per gli host) 
+○ Ottetti per la network: 3 
+-------------------------------------------------------
+172.16.0.4  /16
+
+255.255.0.0
+
+CIDR 16
+
+10101100.00000001.00000000.00000100
+11111111.11111111.00000000.00000000
+
+10101100.00000001.00000000.00000000
+
+○ IP Network:  172.16.0.0
+○ IP Gateway ‘convenzionale’:  172.16.0.1
+○ IP Broadcast:  172.16.255.255  (255-255=0)(0min/255max)
+○ Ottetti per gli host: 2 (i primi 16 bit sono per la network, i restanti 16 per gli host) 
+○ Ottetti per la network: 2 
